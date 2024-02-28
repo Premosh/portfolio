@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Courier New', monospace;
+    background-color: #000;
+    color: #fff;
+}
+#header{
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://wallpaperaccess.com/full/456751.png);
+    background-size: cover;
+    background-position: top;
+    mix-blend-mode: lighten;
+}
+.headertext{
+    margin: 5% 5%;
+    font-size: 30px;
+}
+ul{
+    display: block;
+    list-style-type: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    mix-blend-mode: lighten;
+}
+li {
+    float: left;
+}
+li a{
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 20px 25px;
+    text-decoration: none;
+}
+#about {
+    padding: 100px 0;
+    color: #ababab;
+}
+.container{
+    padding: 10px 10%;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about-col-1{
+    padding-top: 50px;
+    flex-basis: 35%;
+}
+.about-col-1 img {
+    width: 70%;
+    border-radius: 300px;
+}
+.about-col-2 {
+    flex-basis: 60%;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.contact-left {
+    flex-basis: 35%;
+}
+.contact-right {
+    flex-basis: 60%;
+}
+.contact-right form {
+    width: 100%;
+}
+form input, form textarea {
+    font-family: 'Courier New', monospace;
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+.btn.btn2 {
+    display: inlinek;
+    background: #ff004f;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 20px;
+    border-radius: 20px;
+    transition: 0.5s;
+    margin-top: 10px;
+}
