@@ -105,6 +105,7 @@ form input, form textarea {
     margin-top: 10px;
 }
 footer{
+    padding-top: 50px;
     text-align: center;
     font-size: small; 
 }
